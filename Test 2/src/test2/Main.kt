@@ -1,3 +1,5 @@
+package test2
+
 fun main() {
     val account = Account()
 

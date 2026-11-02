@@ -1,3 +1,5 @@
+package test2
+
 class Account(serialnumber: Int, name: String, balance: Double) {
     private var serialNumberValue: Int = serialnumber
     private var nameValue: String = name

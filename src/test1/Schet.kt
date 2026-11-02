@@ -1,3 +1,5 @@
+package test1
+
 class Schet(serialnumber: Int, name: String, balance: Double) {
     private var serialNumberValue: Int = serialnumber
     private var nameValue: String = name

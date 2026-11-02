@@ -1,7 +1,9 @@
+package test1
+
 fun makeSchet(schet1: Schet, number: Int, name: String, balance: Float) {
     schet1.setNumber(number)
     schet1.setName(name)
-    schet1.setBalance(balance)
+//    schet1.setBalance(balance)
 }
 
 fun main() {
