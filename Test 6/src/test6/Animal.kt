@@ -1,5 +1,7 @@
 package test6
 
-abstract class Animal {
+abstract class Animal() {
+    fun sound(): Unit{
 
+    }
 }
