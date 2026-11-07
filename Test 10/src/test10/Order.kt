@@ -6,17 +6,17 @@ data class Order constructor(
     var withMilk: Boolean
 ) {
     fun price(): Double{
+        var basePrice = coffee.price
         if (withMilk){
-            coffee.price = coffee.price * size.multiplier * 1.2
+            basePrice = coffee.price * size.multiplier * 1.2
 
-            return coffee.price
+            return basePrice
         }
         else {
-            coffee.price = coffee.price * size.multiplier
+            basePrice = coffee.price * size.multiplier
 
-            return coffee.price
+            return basePrice
 
         }
-        return coffee.price
     }
 }
